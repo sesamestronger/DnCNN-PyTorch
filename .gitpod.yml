@@ -1,0 +1,7 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: pip install -r requirements.txt
+    command: python train.py --preprocess True --num_of_layers 20 --mode B --val_noiseL
+      25
