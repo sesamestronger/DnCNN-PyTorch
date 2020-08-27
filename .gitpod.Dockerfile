@@ -1,4 +1,4 @@
-FROM python
+FROM gitpod/workspace-full
 
 RUN apt-get install 'ffmpeg'\
     'libsm6'\ 
