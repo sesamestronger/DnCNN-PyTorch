@@ -1,6 +1,6 @@
-FROM gitpod/workspace-full
+FROM pytorch/pytorch
 
-RUN apt install ffmpeg libsm6 libxext6 -y
+# RUN apt-get update && apt-get install -y ffmpeg libsm6 libxext6
 
 # Install custom tools, runtimes, etc.
 # For example "bastet", a command-line tetris clone:
